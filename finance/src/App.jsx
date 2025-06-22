@@ -26,6 +26,7 @@ import Transactions from "./pages/Transaction";
 function App() {
   const [loading, setLoading] = useState(true);
   const [user, setUser] = useState(null);
+  console.log(user)
 
   // Handle splash screen timer
   useEffect(() => {
